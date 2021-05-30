@@ -592,7 +592,7 @@ def ng2g(ng):
 ### Start of the program
 ###
 
-print("start slashing.py")
+print("start punisher.py")
 electionId = GetElectionId()
 complaintsHashes = SaveComplaints(electionId)
 complaints = GetComplaints(electionId)
@@ -608,4 +608,4 @@ for key, item in complaints.items():
 #end for
 
 os.system("rm -rf /tmp/scp_*.boc")
-print("end slashing.py")
+print("end punisher.py")
