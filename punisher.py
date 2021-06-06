@@ -1,9 +1,17 @@
 #!/usr/bin/env python3
 # -*- coding: utf_8 -*-
 
-# This script is a crutch for those who have not installed mytonctrl
-# Full slashing version is available inside mytoncore.py (you need to install mytonctrl in full mode)
-# Details of the full slashing process: Complaints-HOWTO.txt
+# This script implements receiving complaints about idle or cheating validators, checking complaints and voting for complaints to fine such validators.
+# This script is used by validators that, for some reason, do not use mytonctrl https://github.com/igroman787/mytonctrl.
+# If you are using mytonctrl (recommended) you do not need to use this script, as the full slashing process is already built into mytonctrl.
+# Note that identifying idle or cheating validators and submitting a complaint for such validators is not implemented in the script and it is assumed that this is done by validators using mytonctrl.
+#
+# This single file script has no dependencies and can be easily reviewed.
+#
+# Slashing process documentation:
+# https://github.com/newton-blockchain/TIPs/issues/13 
+# https://github.com/newton-blockchain/TIPs/issues/14
+
 
 # fix me:
 lite_client = "/usr/bin/ton/lite-client/lite-client"
