@@ -23,7 +23,7 @@ Slashing process documentation:
 wget https://raw.githubusercontent.com/newton-blockchain/punisher/master/punisher.py
 ```
 
-2. Edit the script, section `fix me` (insert your values):
+2. Edit the script parameters, section `fix me` (insert your values):
 ```
 nano punisher.py
 ```
