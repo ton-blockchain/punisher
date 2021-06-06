@@ -1,5 +1,20 @@
 # What is it
-Small slashing script, was created from full mytoncore.py script
+
+This script implements receiving complaints about idle or cheating validators, checking complaints and voting for complaints to fine such validators.
+
+This script is used by validators that, for some reason, do not use [mytonctrl](https://github.com/igroman787/mytonctrl).
+
+If you are using mytonctrl (recommended) you do not need to use this script, as the full slashing process is already built into mytonctrl.
+
+Note that identifying idle or cheating validators and submitting a complaint for such validators is not implemented in the script and it is assumed that this is done by validators using mytonctrl
+
+This single file script has no dependencies and can be easily reviewed.
+
+Slashing process documentation:
+
+[TIP-13](https://github.com/newton-blockchain/TIPs/issues/13)
+
+[TIP-14](https://github.com/newton-blockchain/TIPs/issues/14)
 
 
 # How to use
